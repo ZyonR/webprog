@@ -1,0 +1,118 @@
+body {
+	background-color:#1B1B1E;
+}
+.QUESTIONSECTION {
+  color:#FFFFFF;
+  border-radius: 10px;
+  background: #333338;
+  position: relative;
+  width: 750px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+.button-text {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 2.5rem;
+  padding-left: 10px;
+  font-weight: 500;
+}
+   
+.content {
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  color:#FFFFFF;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  padding: 0 5px;
+  font-size: 2rem;
+}
+
+.toggle-symbol {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.expandable-container:hover .toggle-symbol {
+  transform: scale(1.2);
+}
+
+.header {
+  background-color: #1B1B1E;
+  color: white;
+  text-align: center;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.top-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  padding: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.title {
+  color:#BF9904;
+  font-family: "Uncial Antiqua", system-ui;
+  font-size: 40px;
+  text-align: start;
+}
+
+.header-button {
+  border-radius: 2rem;
+  padding: 20px 40px;
+  background-color: #54428E;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: "Inter";
+}
+
+.navbar {
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.navbar a {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.image-section {
+  text-align: center;
+}
+
+.faq-image {
+  height: auto;
+  width: 900px
+}
+.faq-questions{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
