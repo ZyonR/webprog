@@ -1,0 +1,30 @@
+.coming_soonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.Coming_Soon{
+    font-family: "Uncial Antiqua", system-ui;
+    font-size: 10rem;
+    color: snow;
+    transition: all 0.5s;
+    @media (max-width:1230px) {
+        font-size:8rem;
+    }
+    @media (max-width:1024px) {
+        font-size:6rem;
+    }
+    @media (max-width:768px) {
+        font-size:4rem;
+    }
+    @media (max-width:525px) {
+        font-size:2.5rem;
+    }
+    @media (max-width:375px) {
+        font-size:2rem;
+    }        
+}
+.soon{
+    color: #BF9904;
+}
