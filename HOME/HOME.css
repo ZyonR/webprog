@@ -1,0 +1,186 @@
+.amadeuslogo{
+    width: 100%;
+}
+main{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.amdeusparagraph{
+    text-align: justify;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    transition: all 0.5s;
+    @media(max-width:768px) {
+        font-size: 0.75rem;
+    }
+    @media(max-width:426px) {
+        font-size: 0.7rem;
+    }
+}
+h3{
+    font-family: "Uncial Antiqua", system-ui;
+    font-size:1.5rem;
+    color:#BF9904;
+    @media (max-width:500px) {
+        font-size:1.3rem;
+    }
+}
+
+/* Slider Images */
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    flex: 0 0 auto;
+    transition: transform 0.5s ease;
+}
+
+.slider img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: all 0.5s;
+    @media (max-width:500px) {
+        height: 300px;
+    }
+}
+.rounded-img{
+    border-radius: 1rem;
+}
+
+/* Gmaps */
+.gmaps{
+    width: 100%;
+    height: 11rem;
+    background-color: #343A40;
+    padding: 0px;
+    transition: all 0.5s;
+    border-radius: 1rem;
+    @media (min-width:500px) {
+        height: 20rem;
+    }
+    @media (min-width:850px) {
+        height: 30rem;
+    }
+}
+
+/* reviews */
+.reviwee{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: snow;
+    margin: 0;
+}
+.overallreview{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #8F8F93;
+    margin: 0;
+}
+.review{
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: snow;
+    text-align: justify;
+    margin: 0;
+    transition: all 0.5s;
+    @media (max-width:1110px) {
+        font-size: 0.7rem;
+    }
+}
+.review_card{
+    background-color: #333338;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    border-radius: 2rem;
+}
+.Reviews{
+    display: grid;
+    gap: 1rem;
+    background-color:#1B1B1E;
+    border-radius: 2rem;
+    transition: all 0.5s;
+    @media (min-width:768px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* FAQ Questions */
+.faq-questions{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.QUESTIONSECTION {
+    color:#FFFFFF;
+    border-radius: 10px;
+    background: #333338;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0.7rem;
+}
+.button-text {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 0.8rem;
+    padding-left: 10px;
+    font-weight: 500;
+    margin: 0px;
+}
+.content {
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    color:#FFFFFF;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    padding: 0 5px;
+    text-align: justify;
+    font-size: 0.8rem;
+    @media(max-width:768px) {
+        font-size: 0.75rem;
+    }
+    @media(max-width:426px) {
+        font-size: 0.7rem;
+    }
+}
+.toggle-symbol {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: transform 0.3s ease;
+}
+
+/*footer*/
+.Footimage{
+    width: 100%;
+    border-radius: 5rem 5rem 0rem 0rem;
+    transition: all 0.5s;
+    @media (max-width:455px) {
+        border-radius: 3rem 3rem 0rem 0rem;
+    }
+    @media (max-width:345px) {
+        border-radius: 2rem 2rem 0rem 0rem;
+    }
+}
+body{
+    margin: 0px;
+}
+
